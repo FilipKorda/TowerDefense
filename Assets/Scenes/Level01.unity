@@ -2928,9 +2928,9 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 3960909369632236059, guid: 29a5d2903c8c8294fb14918962ef4585, type: 3}
     upgradeCost: 190
   SniperTurret:
-    prefab: {fileID: 9010330478380380886, guid: 609b13060660b7640baf95b7b4979fe5, type: 3}
+    prefab: {fileID: 5511789489394811406, guid: 609b13060660b7640baf95b7b4979fe5, type: 3}
     cost: 600
-    upgradedPrefab: {fileID: 9010330478380380886, guid: 609b13060660b7640baf95b7b4979fe5, type: 3}
+    upgradedPrefab: {fileID: 5511789489394811406, guid: 609b13060660b7640baf95b7b4979fe5, type: 3}
     upgradeCost: 1200
   ChampionTurret:
     prefab: {fileID: 0}
@@ -11018,63 +11018,6 @@ MonoBehaviour:
   ui: {fileID: 350920167}
   menuSceneName: MainMenu
   sceneFader: {fileID: 1487257413}
---- !u!1001 &2115803866
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4963917852859936855, guid: 7c36eb7a2a4f3bd48aea7c9407d5621e, type: 3}
-      propertyPath: m_RootOrder
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 4963917852859936855, guid: 7c36eb7a2a4f3bd48aea7c9407d5621e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.887
-      objectReference: {fileID: 0}
-    - target: {fileID: 4963917852859936855, guid: 7c36eb7a2a4f3bd48aea7c9407d5621e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4963917852859936855, guid: 7c36eb7a2a4f3bd48aea7c9407d5621e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 3.81
-      objectReference: {fileID: 0}
-    - target: {fileID: 4963917852859936855, guid: 7c36eb7a2a4f3bd48aea7c9407d5621e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4963917852859936855, guid: 7c36eb7a2a4f3bd48aea7c9407d5621e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4963917852859936855, guid: 7c36eb7a2a4f3bd48aea7c9407d5621e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4963917852859936855, guid: 7c36eb7a2a4f3bd48aea7c9407d5621e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4963917852859936855, guid: 7c36eb7a2a4f3bd48aea7c9407d5621e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4963917852859936855, guid: 7c36eb7a2a4f3bd48aea7c9407d5621e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4963917852859936855, guid: 7c36eb7a2a4f3bd48aea7c9407d5621e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5740031583321058029, guid: 7c36eb7a2a4f3bd48aea7c9407d5621e, type: 3}
-      propertyPath: m_Name
-      value: SImple_turret11
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7c36eb7a2a4f3bd48aea7c9407d5621e, type: 3}
 --- !u!1 &2119248326
 GameObject:
   m_ObjectHideFlags: 0
