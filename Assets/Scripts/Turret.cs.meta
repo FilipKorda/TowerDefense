@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 32ac3af0a344dea429a63f89ef65d806
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bulletPrefab: {fileID: 4033366699140417711, guid: 46f5876032e440943833fb27c89c91b6, type: 3}
+  - lineRenderer: {instanceID: 0}
+  - impactEffect: {fileID: 1827308609705358405, guid: 4b30c2a972ddf184ba44a8167828a703, type: 3}
+  - impactLight: {instanceID: 0}
+  - partToRotate: {instanceID: 0}
+  - firePoint: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
