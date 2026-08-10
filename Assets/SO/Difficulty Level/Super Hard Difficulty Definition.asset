@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b7860e041fea1041935ed2a0a490539, type: 3}
+  m_Name: Super Hard Difficulty Definition
+  m_EditorClassIdentifier: Assembly-CSharp::TowerDefense.GameSystem.DifficultyDefinition
+  difficultyName: Super Hard
+  difficultyIndex: 3
+  description: "Ultra ciezkie, 0 pomy\u0142ek i duzo fal ze przeciwnikami."
+  waves:
+  - {fileID: 11400000, guid: 8a8b50f6b75407043a01f90e8452e080, type: 2}
+  - {fileID: 11400000, guid: 373b92d7859a29e43ae93c23d33adf9c, type: 2}
+  - {fileID: 11400000, guid: 63c36c8801f0f8441a46121d887b128f, type: 2}
+  - {fileID: 11400000, guid: 1013ee341ffa5d94f8a82b1ddd6f2eb1, type: 2}
+  - {fileID: 11400000, guid: a6d6c8b8b0d885947a0e6fbd3d0b2d3e, type: 2}
+  - {fileID: 11400000, guid: fb15d5ffbab41a8478ba8ed4843392c7, type: 2}
+  - {fileID: 11400000, guid: 4d2913e9e17a3804b9ae570be1f448cc, type: 2}
+  - {fileID: 11400000, guid: 842d8664cf824724088fb027a792934b, type: 2}
+  - {fileID: 11400000, guid: f2044bc8d7824a546941bc501e07fa07, type: 2}
+  - {fileID: 11400000, guid: d18dc2efe62e5b14599d84d61c138689, type: 2}
+  - {fileID: 11400000, guid: 1f611c160f56d0b4496d78f3958ad2ff, type: 2}
+  - {fileID: 11400000, guid: ec1991016613ace4287bfe9bb828b259, type: 2}
+  - {fileID: 11400000, guid: 69c6317a541551740b863db7dd3c3aab, type: 2}
+  - {fileID: 11400000, guid: 6f94a6edc296dff469a7f419fc56e884, type: 2}
+  - {fileID: 11400000, guid: f508642b09a396142bd2b4b27ea65e7a, type: 2}
+  - {fileID: 11400000, guid: 3d55f481b63787e468b3e18e36a09f7e, type: 2}
+  - {fileID: 11400000, guid: b65b27ad252909a44926057a8b3b1347, type: 2}
+  - {fileID: 11400000, guid: 3c9e037b0861b8f4587521bfd8275aec, type: 2}
+  - {fileID: 11400000, guid: b93d546db913a534281e949e2c708935, type: 2}
+  - {fileID: 11400000, guid: 025ad8b1e32b20e429803488dcea0d77, type: 2}
+  - {fileID: 11400000, guid: 41c05befa1c0fb14b8ec794a37904693, type: 2}
+  - {fileID: 11400000, guid: 7f5d2c41cf6ab094cbffe7be98cf4974, type: 2}
+  - {fileID: 11400000, guid: fe0145beffb89fe48b261732ac057102, type: 2}
+  - {fileID: 11400000, guid: eba9ed9960258a74eae9793433122a1f, type: 2}
+  - {fileID: 11400000, guid: f413c82451a2b3d489bf61bd7200fc82, type: 2}
+  playerHp: 5
+  enemyTypes:
+  - {fileID: 11400000, guid: 150f539e71a11e14a971916c455e3f55, type: 2}
+  - {fileID: 11400000, guid: ff0836d47db3dfd4a96942533dbde71d, type: 2}
+  - {fileID: 11400000, guid: 01e2942c81272824e9ecdcc62d6f4e6e, type: 2}
+  - {fileID: 11400000, guid: 16eabc297be89f3498017d4b9e5b1581, type: 2}
+  - {fileID: 11400000, guid: 4501ef8bd0892cd4cb96942a3f4b8bf4, type: 2}
+  - {fileID: 11400000, guid: a7e1b0f2465e79947bc6e0a6be3b0a46, type: 2}
+  - {fileID: 11400000, guid: d37396cf7a827f247895d5f475668ac0, type: 2}
+  enemyHpBonus: 10

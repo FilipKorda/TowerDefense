@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b7860e041fea1041935ed2a0a490539, type: 3}
+  m_Name: Medium Difficulty Definition
+  m_EditorClassIdentifier: Assembly-CSharp::TowerDefense.GameSystem.DifficultyDefinition
+  difficultyName: Medium
+  difficultyIndex: 1
+  description: "No taki \u015Bredni ten poziom."
+  waves:
+  - {fileID: 11400000, guid: eaabcbd0daa6316478cc8add4b0e8cfe, type: 2}
+  - {fileID: 11400000, guid: a54a664f6bacddb4588b6fd8573c4ebe, type: 2}
+  - {fileID: 11400000, guid: 8ecc91a5e0c3b82499b8a10dc43cd21c, type: 2}
+  - {fileID: 11400000, guid: 225f38749116bff49add4252bba66244, type: 2}
+  - {fileID: 11400000, guid: e8d38f1877aecc642ad71e4f24477d52, type: 2}
+  - {fileID: 11400000, guid: dbac6942b4816154782446ea17ba9d78, type: 2}
+  - {fileID: 11400000, guid: 5fc9c8fec3cd80e4ea54ffb3cc9c49b3, type: 2}
+  - {fileID: 11400000, guid: 3822c89361fa86d4d92f496915dbb26e, type: 2}
+  - {fileID: 11400000, guid: 3165874062af3a84985b77e9b932e1f6, type: 2}
+  - {fileID: 11400000, guid: 437864cbec37540478aa0debd1511c88, type: 2}
+  - {fileID: 11400000, guid: 3a3a1646c0f743f45b22b35999725134, type: 2}
+  - {fileID: 11400000, guid: 95f91e0d228a53844b68251b8dd86a33, type: 2}
+  - {fileID: 11400000, guid: a16ff3581a09a474bbc132f90e92313c, type: 2}
+  - {fileID: 11400000, guid: 609991dbf4857bb449a400b5ffc2a3fd, type: 2}
+  - {fileID: 11400000, guid: 6b65cd2d4bb191c488bd2249a5bf96b5, type: 2}
+  playerHp: 15
+  enemyTypes:
+  - {fileID: 11400000, guid: 150f539e71a11e14a971916c455e3f55, type: 2}
+  - {fileID: 11400000, guid: ff0836d47db3dfd4a96942533dbde71d, type: 2}
+  - {fileID: 11400000, guid: 01e2942c81272824e9ecdcc62d6f4e6e, type: 2}
+  - {fileID: 11400000, guid: 16eabc297be89f3498017d4b9e5b1581, type: 2}
+  - {fileID: 11400000, guid: d37396cf7a827f247895d5f475668ac0, type: 2}
+  enemyHpBonus: 2
