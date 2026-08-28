@@ -10,15 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 02fd7161179b7e647b67cfd26a361154, type: 3}
-  m_Name: Enemy 7 Boss ELF Enemy Ground Definition
+  m_Name: Enemy 7 Boss Cultist Mag Enemy Ground Definition
   m_EditorClassIdentifier: Assembly-CSharp::TowerDefense.EnemySystem.EnemyDefinition
-  displayName: Elf Boss
+  enemyDescription: A colossal being whose very presence inspires fear, and whose
+    every blow can turn the tide of battle into ruin. It is slow, yet its might ensures
+    that even a moment of inattention can mean certain death.
+  displayName: Cultist
   prefab: {fileID: 8123313060946647491, guid: acfc76e048ba9734bb41dac037f53bdd, type: 3}
   maxHp: 40
-  moveSpeed: 0.9
+  moveSpeed: 0.75
   moneyReward: 20
   movementType: 0
-  heightAboveTheGround: 0.04
+  heightAboveTheGround: 0.24
   resistances:
   - DamageType: 0
     ResistancePercent: 0.25

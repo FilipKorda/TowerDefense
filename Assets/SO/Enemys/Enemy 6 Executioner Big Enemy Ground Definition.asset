@@ -10,21 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 02fd7161179b7e647b67cfd26a361154, type: 3}
-  m_Name: Enemy 4 MAMA SPIDER Big Enemy Ground Definition
+  m_Name: Enemy 6 Executioner Big Enemy Ground Definition
   m_EditorClassIdentifier: Assembly-CSharp::TowerDefense.EnemySystem.EnemyDefinition
-  displayName: Mama Spider
-  prefab: {fileID: 8123313060946647491, guid: 585c70adebe01324b82a25925fe7c865, type: 3}
-  maxHp: 12
-  moveSpeed: 1.6
-  moneyReward: 15
+  enemyDescription: A powerful being wielding two massive cleavers, ready to tear
+    apart anyone who stands in its way. Its brutal attacks can deal immense damage,
+    yet its slow movements betray a weakness.
+  displayName: Exet
+  prefab: {fileID: 8123313060946647491, guid: c7c08d8940e4c1243af08d90dc4bef25, type: 3}
+  maxHp: 20
+  moveSpeed: 1.5
+  moneyReward: 14
   movementType: 0
-  heightAboveTheGround: 0.14
+  heightAboveTheGround: 0.225
   resistances:
   - DamageType: 0
-    ResistancePercent: 0
-  - DamageType: 1
     ResistancePercent: 0.5
+  - DamageType: 1
+    ResistancePercent: 0
   - DamageType: 2
-    ResistancePercent: 0
+    ResistancePercent: 0.25
   - DamageType: 3
-    ResistancePercent: 0
+    ResistancePercent: 0.25

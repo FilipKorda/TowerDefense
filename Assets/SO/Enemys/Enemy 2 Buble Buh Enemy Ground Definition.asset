@@ -10,21 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 02fd7161179b7e647b67cfd26a361154, type: 3}
-  m_Name: Enemy 6 GOBLIN Big Enemy Ground Definition
+  m_Name: Enemy 2 Buble Buh Enemy Ground Definition
   m_EditorClassIdentifier: Assembly-CSharp::TowerDefense.EnemySystem.EnemyDefinition
-  displayName: Goblin
-  prefab: {fileID: 8123313060946647491, guid: c7c08d8940e4c1243af08d90dc4bef25, type: 3}
-  maxHp: 18
-  moveSpeed: 1.2
-  moneyReward: 14
+  enemyDescription: Buble Bah looks like a cute little mushroom, but its innocent
+    appearance is merely a trap for the unwary. If you get too close, it will instantly
+    reveal its dangerous nature.
+  displayName: Buble Buh
+  prefab: {fileID: 8123313060946647491, guid: ca08886123fb0ef4fb324c5162b3bb68, type: 3}
+  maxHp: 8
+  moveSpeed: 1.8
+  moneyReward: 7
   movementType: 0
-  heightAboveTheGround: 0.14
+  heightAboveTheGround: 0.04
   resistances:
   - DamageType: 0
-    ResistancePercent: 0.5
+    ResistancePercent: 0.25
   - DamageType: 1
     ResistancePercent: 0
   - DamageType: 2
-    ResistancePercent: 0.25
+    ResistancePercent: 0
   - DamageType: 3
-    ResistancePercent: 0.25
+    ResistancePercent: 0

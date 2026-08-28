@@ -10,18 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 02fd7161179b7e647b67cfd26a361154, type: 3}
-  m_Name: Enemy 2 SPIDER Enemy Ground Definition
+  m_Name: Enemy 1 Imp Enemy Ground Definition
   m_EditorClassIdentifier: Assembly-CSharp::TowerDefense.EnemySystem.EnemyDefinition
-  displayName: Spider
-  prefab: {fileID: 8123313060946647491, guid: ca08886123fb0ef4fb324c5162b3bb68, type: 3}
-  maxHp: 8
-  moveSpeed: 1.8
-  moneyReward: 7
+  enemyDescription: The Imp is a hellish spawn that instantly leaps at its victim
+    and tears apart anyone who stands in its way without hesitation. Its unassuming
+    stature masks savage aggression and a ruthless nature.
+  displayName: Imp
+  prefab: {fileID: 8123313060946647491, guid: 4c05d654a05e12e41964b49d6aab0f5e, type: 3}
+  maxHp: 5
+  moveSpeed: 2
+  moneyReward: 8
   movementType: 0
-  heightAboveTheGround: 0.04
+  heightAboveTheGround: 0.16
   resistances:
   - DamageType: 0
-    ResistancePercent: 0.25
+    ResistancePercent: 0
   - DamageType: 1
     ResistancePercent: 0
   - DamageType: 2

@@ -10,9 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 02fd7161179b7e647b67cfd26a361154, type: 3}
-  m_Name: Enemy 3 MUCHA Enemy Fly Definition
+  m_Name: Enemy 3 Beebo Enemy Fly Definition
   m_EditorClassIdentifier: Assembly-CSharp::TowerDefense.EnemySystem.EnemyDefinition
-  displayName: Mucha
+  enemyDescription: Beebo is a small, wasp-like flying drone that constantly patrols
+    the area in search of a target. Its lightning-fast attacks and precise strikes
+    can catch even the most vigilant adventurers off guard.
+  displayName: Beebo
   prefab: {fileID: 8123313060946647491, guid: bb3d9facaa75a274498c3d35e41e5659, type: 3}
   maxHp: 6
   moveSpeed: 2.6
@@ -25,6 +28,6 @@ MonoBehaviour:
   - DamageType: 1
     ResistancePercent: 0.25
   - DamageType: 2
-    ResistancePercent: 0.25
+    ResistancePercent: 1
   - DamageType: 3
     ResistancePercent: 0

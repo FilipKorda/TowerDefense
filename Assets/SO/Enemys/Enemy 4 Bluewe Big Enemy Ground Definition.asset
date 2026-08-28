@@ -10,20 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 02fd7161179b7e647b67cfd26a361154, type: 3}
-  m_Name: Enemy 1 ORC Enemy Ground Definition
+  m_Name: Enemy 4 Bluewe Big Enemy Ground Definition
   m_EditorClassIdentifier: Assembly-CSharp::TowerDefense.EnemySystem.EnemyDefinition
-  displayName: Orc
-  prefab: {fileID: 8123313060946647491, guid: 4c05d654a05e12e41964b49d6aab0f5e, type: 3}
-  maxHp: 5
-  moveSpeed: 2
-  moneyReward: 8
+  enemyDescription: Bluewe is a powerful, armored beast whose massive frame conceals
+    nearly inexhaustible reserves of stamina. Every step it takes heralds trouble,
+    and overcoming this colossus requires both patience and strength.
+  displayName: Bluewe
+  prefab: {fileID: 8123313060946647491, guid: 585c70adebe01324b82a25925fe7c865, type: 3}
+  maxHp: 12
+  moveSpeed: 1.6
+  moneyReward: 15
   movementType: 0
-  heightAboveTheGround: 0.04
+  heightAboveTheGround: 0.14
   resistances:
   - DamageType: 0
     ResistancePercent: 0
   - DamageType: 1
-    ResistancePercent: 0
+    ResistancePercent: 0.5
   - DamageType: 2
     ResistancePercent: 0
   - DamageType: 3

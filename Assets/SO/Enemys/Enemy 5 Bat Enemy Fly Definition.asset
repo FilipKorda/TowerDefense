@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02fd7161179b7e647b67cfd26a361154, type: 3}
   m_Name: Enemy 5 Bat Enemy Fly Definition
   m_EditorClassIdentifier: Assembly-CSharp::TowerDefense.EnemySystem.EnemyDefinition
+  enemyDescription: This agile bat moves silently, appearing and vanishing before
+    you can react. Its speed and mysterious nature make it an exceptionally dangerous
+    opponent.
   displayName: Bat
   prefab: {fileID: 8123313060946647491, guid: aed7e0b05428a9d499be5749c6522e2a, type: 3}
   maxHp: 10
@@ -25,6 +28,6 @@ MonoBehaviour:
   - DamageType: 1
     ResistancePercent: 0
   - DamageType: 2
-    ResistancePercent: 0.5
+    ResistancePercent: 1
   - DamageType: 3
     ResistancePercent: 0
