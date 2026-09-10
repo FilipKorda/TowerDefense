@@ -12,20 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acc698a9c1797c542b4ca11654c084c4, type: 3}
   m_Name: Ice Tower Definition
   m_EditorClassIdentifier: Assembly-CSharp::TowerDefense.BuildSystem.TowerDefinition
-  displayName: Ice
-  displayNameDescription: Ice Tower
+  displayName: Ice Mortar
+  towerDescription: A mortar with high power.
   cost: 90
   prefab: {fileID: 6155707817636501411, guid: 77edcc61bd7e5f84984af965e94e92e3, type: 3}
-  attackSpeed: 0.7
-  damage: 1
-  attackRange: 4.5
-  towerDescription: Icetower.
+  attackSpeed: 0.3
+  damage: 2
+  attackRange: 1.4
   damageType: 2
   targetableTypes: 1
-  upgradeCost: 30
+  upgradeCost: 55
+  upgradeCostIncreasePerLevel: 20
   maxUpgradeLevel: 3
-  upgradeDamageMultiplier: 1.25
-  upgradeAttackSpeedMultiplier: 1.1
+  upgradeDamageMultiplier: 1.15
+  upgradeAttackSpeedMultiplier: 1.25
   upgradeAttackRangeMultiplier: 1.1
   sellRefundPercent: 0.5
   buildOffset: {x: 0, y: -0.83, z: 0}

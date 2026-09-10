@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acc698a9c1797c542b4ca11654c084c4, type: 3}
   m_Name: Normal Tower Definition
   m_EditorClassIdentifier: Assembly-CSharp::TowerDefense.BuildSystem.TowerDefinition
-  displayName: Normal
-  displayNameDescription: Normal Tower
+  displayName: Turret
+  towerDescription: A very useful tower,
   cost: 50
   prefab: {fileID: 6155707817636501411, guid: 2e3511799b3714e49ba5d1461da02712, type: 3}
-  attackSpeed: 0.6
-  damage: 2
-  attackRange: 4.5
-  towerDescription: Standard tower.
+  attackSpeed: 0.9
+  damage: 3
+  attackRange: 1.8
   damageType: 0
   targetableTypes: -1
-  upgradeCost: 30
+  upgradeCost: 35
+  upgradeCostIncreasePerLevel: 10
   maxUpgradeLevel: 3
   upgradeDamageMultiplier: 1.25
   upgradeAttackSpeedMultiplier: 1.1

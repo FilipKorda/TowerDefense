@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TowerDefense.EnemySystem.WaveDefinition
   bursts:
   - enemyDefinition: {fileID: 11400000, guid: ff0836d47db3dfd4a96942533dbde71d, type: 2}
-    enemyCount: 1
-    formationSpacing: 0
+    enemyCount: 2
+    formationSpacing: 0.3
   - enemyDefinition: {fileID: 11400000, guid: ff0836d47db3dfd4a96942533dbde71d, type: 2}
     enemyCount: 1
     formationSpacing: 0
@@ -23,8 +23,8 @@ MonoBehaviour:
     enemyCount: 1
     formationSpacing: 0
   - enemyDefinition: {fileID: 11400000, guid: ff0836d47db3dfd4a96942533dbde71d, type: 2}
-    enemyCount: 1
-    formationSpacing: 0
+    enemyCount: 2
+    formationSpacing: 0.3
   - enemyDefinition: {fileID: 11400000, guid: 150f539e71a11e14a971916c455e3f55, type: 2}
     enemyCount: 1
     formationSpacing: 0
@@ -32,6 +32,6 @@ MonoBehaviour:
     enemyCount: 1
     formationSpacing: 0
   - enemyDefinition: {fileID: 11400000, guid: 150f539e71a11e14a971916c455e3f55, type: 2}
-    enemyCount: 1
-    formationSpacing: 0
+    enemyCount: 2
+    formationSpacing: 0.3
   timeBetweenBursts: 1.1
